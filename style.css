@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@500&display=swap");
+
+:root {
+  --font-family: "Josefin Sans", sans-serif;
+  --font-family-hand: "Edu SA Hand", cursive;
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dcba25;
+}
+
+#text-to-type {
+  font-family: var(--font-family-hand);
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 80vh;
+  border: 2px solid #cfae22 ;
+  border-radius: 8px;
+  position: relative;
+  top: 80px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #cfae22;
+}
+
